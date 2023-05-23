@@ -21,9 +21,3 @@ return `<div id="${customerOrder.id}" class="customerOrder">Order #${customerOrd
     customerOrdersHTML += ordersArray.join(" ");
     return customerOrdersHTML;
   };
-
-
-
-
-
-  
