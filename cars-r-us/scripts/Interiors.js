@@ -1,5 +1,5 @@
 import { setInteriorChoice } from "./TransientState.js"
-//create change event for capturing the paint option chosen
+//create change event for capturing the interior option chosen
 const changeHandler = (changeEvent) => {
     if (changeEvent.target.id === "interiors") {
        const interiorIdChosen = changeEvent.target.value
