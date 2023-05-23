@@ -1,0 +1,41 @@
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.options {
+    border: 3px dotted lightskyblue;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 0px 10px 15px 10px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgb(184, 244, 244);
+}
+
+h1, h2 {
+    color: coral;
+    text-align: center;
+}
+
+.customerOrder {
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px dotted lightskyblue;
+    background-color:rgb(184, 244, 244);
+    border-radius: 5px;
+    margin: 15px;
+    flex-grow: 1;
+}
+
+#customOrder {
+    background-color: rgb(236, 155, 32);
+    color: bisque;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
