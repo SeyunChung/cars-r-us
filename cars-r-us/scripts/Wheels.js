@@ -1,5 +1,5 @@
 import { setWheelChoice } from "./TransientState.js"
-//create change event for capturing the paint option chosen
+//create change event for capturing the wheel option chosen
 const changeHandler = (changeEvent) => {
     if (changeEvent.target.id === "wheels") {
        const wheelIdChosen = changeEvent.target.value
@@ -7,9 +7,9 @@ const changeHandler = (changeEvent) => {
     }
  }
 document.addEventListener("change", changeHandler)
-//create html for displaying the paints menu
+//create html for displaying the wheels menu
 export const Wheels = async () => {
-    //fetch the paints data from our local api
+    //fetch the wheels data from our local api
     const response = await fetch("http://localhost:8088/wheels")
     const wheels = await response.json() 
 
