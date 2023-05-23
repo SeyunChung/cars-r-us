@@ -1,5 +1,5 @@
 import { setTechnologyChoice } from "./TransientState.js"
-//create change event for capturing the paint option chosen
+//create change event for capturing the technology option chosen
 const changeHandler = (changeEvent) => {
     if (changeEvent.target.id === "technologies") {
        const technologyIdChosen = changeEvent.target.value
@@ -7,9 +7,9 @@ const changeHandler = (changeEvent) => {
     }
  }
 document.addEventListener("change", changeHandler)
-//create html for displaying the paints menu
+//create html for displaying the technologies menu
 export const Technologies = async () => {
-    //fetch the paints data from our local api
+    //fetch the technologies data from our local api
     const response = await fetch("http://localhost:8088/technologies")
     const technologies = await response.json() 
 
