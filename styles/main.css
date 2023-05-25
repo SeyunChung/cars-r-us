@@ -1,0 +1,66 @@
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.options {
+    border: 3px dotted lightskyblue;
+    border-radius: 50px;
+    margin: 15px;
+    padding: 0px 10px 15px 10px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgb(184, 244, 244);
+}
+
+h1 {
+    color: rgb(173, 3, 216);
+    font-size: 100px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    border: 3px dotted lightskyblue;
+}
+
+h2 {
+    color: coral;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(27, 3, 239);
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(250, 215, 247);
+    border-radius: 50px;
+    border: 3px dotted lightskyblue;
+}
+
+.customerOrder {
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px dotted lightskyblue;
+    background-color:rgb(184, 244, 185);
+    margin: 15px;
+    flex-grow: 1;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+#customOrder {
+    background-color: rgb(236, 155, 32);
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-BuQdw4P1-zaFFxgFqfH3i7jGsyGeu50KvQg4BfWXn__3thRkssbszw82c_bJUkiG7Ic&usqp=CAU")
+}
+
