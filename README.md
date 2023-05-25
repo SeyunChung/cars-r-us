@@ -6,3 +6,4 @@ In the Guided Tour, generated radio buttons to allow customers to choose their o
   
 ![image](https://github.com/SeyunChung/cars-r-us/assets/119281933/f6198713-1996-4da3-bcfc-7117e135aae9)
 
+![image](https://github.com/SeyunChung/cars-r-us/assets/119281933/993bb5fc-30f3-4bdf-844e-e8edc5cef3ad)
